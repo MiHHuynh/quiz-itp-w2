@@ -29,7 +29,9 @@ def number_of_customers_per_state(customers):
     }
     """
     # Write your code here
-    pass
+    return { state : len(people) for state, people in customers }
+        
+        
 
 
 class NumberOfCustomersPerStateTestCase(unittest.TestCase):
