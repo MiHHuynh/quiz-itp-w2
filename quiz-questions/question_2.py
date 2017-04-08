@@ -29,7 +29,7 @@ def number_of_customers_per_state(customers):
     }
     """
     # Write your code here
-    return { state : len(people) for state, people in customers }
+    return { state : len(people) for state, people in customers.items() }
         
         
 
